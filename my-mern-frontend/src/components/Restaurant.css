@@ -1,0 +1,85 @@
+.restaurant-container {
+    background: #fff8f0;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #3a2c1c;
+  }
+  
+  .restaurant-heading {
+    font-size: 3rem;
+    color: #bfa145;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    animation: fadeInDown 1s ease-out;
+  }
+  
+  .restaurant-subheading {
+    font-size: 1.2rem;
+    color: #5e4b31;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  .menu-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .menu-card {
+    background-color: #fff;
+    border: 1px solid #e0cda9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .menu-card h2 {
+    color: #bfa145;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .menu-card p {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .reserve-btn {
+    background-color: #bfa145;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .reserve-btn:hover {
+    background-color: #a89038;
+    transform: scale(1.05);
+  }
+  
+  /* Animation */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

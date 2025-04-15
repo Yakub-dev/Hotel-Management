@@ -1,0 +1,67 @@
+.booking-bg {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGFj6FKciqZzfuuuEaf769JlMlXUlif89_kQ&s');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px 40px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .glass-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .glass-card h2 {
+    color:#7d630c;
+    margin-bottom: 20px;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .booking-form input {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  .booking-form input:focus {
+    box-shadow: 0 0 5px #7d630c;
+  }
+  
+  .booking-form button {
+    padding: 12px;
+    background-color:#876e1a;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .booking-form button:hover {
+    background-color: #eecd60;
+  }
+  

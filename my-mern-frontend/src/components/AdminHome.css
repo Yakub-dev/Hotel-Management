@@ -1,0 +1,43 @@
+.admin-home-container {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to bottom, #0d0d0d, #1c1c1c);
+    min-height: 100vh;
+    color: #ffd700;
+    padding: 40px;
+  }
+  
+  .admin-title {
+    font-size: 48px;
+    color: #ffd700;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.4);
+  }
+  
+  .admin-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .admin-buttons button {
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: linear-gradient(145deg, #b8860b, #ffd700);
+    color: #1c1c1c;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(255, 215, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .admin-buttons button:hover {
+    background: linear-gradient(145deg, #ffd700, #b8860b);
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(255, 215, 0, 0.3);
+  }
+  

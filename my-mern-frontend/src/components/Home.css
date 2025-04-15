@@ -1,0 +1,181 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  background-color: #fffdf5;
+}
+
+.hero {
+  background: url('https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-text button {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #d4af37;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.hero-text button:hover {
+  transform: scale(1.05);
+}
+
+.about-section, .features-section, .cta-section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.about-section h2,
+.features-section h2,
+.cta-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #d4af37;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.feature-box {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  margin: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.cta-section button {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #d4af37;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-section button:hover {
+  background-color: #c49e34;
+}
+.about-founder {
+  background-color: #fff8e1;
+  padding: 50px;
+  text-align: center;
+  color: #5c4033;
+  font-family: 'Georgia', serif;
+  border-top: 1px solid #e0c68d;
+  transition: all 0.5s ease;
+}
+
+.about-founder h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #a67c00;
+}
+
+.about-founder p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.login-btn {
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #d4af37;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #fff8e1, #ffecb3);
+  font-family: 'Georgia', serif;
+  color: #a87b2f;
+}
+
+.royal-loader {
+  width: 80px;
+  height: 80px;
+  border: 8px solid #f3e5ab;
+  border-top: 8px solid #a87b2f;
+  border-radius: 50%;
+  animation: royal-spin 1.2s ease-in-out infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes royal-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.royal-loader-text {
+  font-size: 18px;
+  font-weight: bold;
+  animation: fadein 2s ease-in-out;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.loader-logo {
+  width: 60px;
+  height: 60px;
+  background-image: url('https://i.imgur.com/VnmYFqY.gif'); /* custom gif below */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
